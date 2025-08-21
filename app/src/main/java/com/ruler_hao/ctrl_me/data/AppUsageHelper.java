@@ -19,12 +19,22 @@ public class AppUsageHelper {
         public String packageName;
         public Drawable icon;
         public long usageTimeMillis;
+        public boolean isMonitorable;
 
         public AppInfo(String appName, String packageName, Drawable icon, long usageTimeMillis) {
             this.appName = appName;
             this.packageName = packageName;
             this.icon = icon;
             this.usageTimeMillis = usageTimeMillis;
+            this.isMonitorable = false; // Default to false
+        }
+
+        public AppInfo(String appName, String packageName, Drawable icon, long usageTimeMillis, boolean isMonitorable) {
+            this.appName = appName;
+            this.packageName = packageName;
+            this.icon = icon;
+            this.usageTimeMillis = usageTimeMillis;
+            this.isMonitorable = isMonitorable;
         }
     }
 

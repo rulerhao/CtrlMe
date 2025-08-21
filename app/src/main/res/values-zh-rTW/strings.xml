@@ -2,4 +2,8 @@
 <resources>
     <string name="app_name">CtrlMe</string>
     <string name="get_location">取得位置</string>
+    <string name="usage_time_not_used">未使用</string>
+    <string name="usage_time_hours_minutes">%1$d小時 %2$d分鐘</string>
+    <string name="usage_time_minutes">%1$d分鐘</string>
+    <string name="usage_time_seconds">%1$d秒</string>
 </resources>

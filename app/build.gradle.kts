@@ -51,6 +51,7 @@ android {
 
 dependencies {
     implementation(libs.androidx.fragment)
+    implementation(libs.androidx.recyclerview)
     testImplementation(libs.junit)
     testImplementation(libs.mockito.core)
     testImplementation(libs.mockito.inline)

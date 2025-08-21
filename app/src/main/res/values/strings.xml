@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">CtrlMe</string>
     <string name="get_location">Get Location</string>
+    <string name="usage_time_not_used">Not used</string>
+    <string name="usage_time_hours_minutes">%1$d hours %2$d minutes</string>
+    <string name="usage_time_minutes">%1$d minutes</string>
+    <string name="usage_time_seconds">%1$d seconds</string>
 </resources>
