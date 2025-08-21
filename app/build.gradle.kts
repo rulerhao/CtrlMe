@@ -35,7 +35,12 @@ android {
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
             )
-            signingConfig = signingConfigs.getByName("debug")
+            signingConfig = signingConfigs.create("release") {
+                storeFile = file(localProperties["KEYSTORE_PATH"] ?: "keystore.jks")
+                storePassword = localProperties["KEYSTORE_PASSWORD"]?.toString()
+                keyAlias = localProperties["KEY_ALIAS"]?.toString()
+                keyPassword = localProperties["KEY_PASSWORD"]?.toString()
+            }
         }
     }
     compileOptions {
