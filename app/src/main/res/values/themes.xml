@@ -1,0 +1,6 @@
+<resources>
+    <style name="Theme.MyApp" parent="android:Theme.DeviceDefault.NoActionBar">
+        <!-- 可選：設定你的 App 顏色主題 -->
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+</resources>

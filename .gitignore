@@ -1,0 +1,59 @@
+# === OS / IDE ===
+.DS_Store
+Thumbs.db
+*.iml
+.idea/
+.gradle/
+.gradle-cache/
+build/
+captures/
+out/
+
+# === Android Studio specific ===
+local.properties
+.gradle/
+*.hprof
+
+# === Keystore / Secrets (不要放上GitHub) ===
+*.jks
+*.keystore
+*.keystore.properties
+secrets.properties
+
+# === Google Services / Firebase ===
+app/google-services.json
+**/GoogleService-Info.plist
+
+# === Logs / Temp ===
+*.log
+*.tmp
+
+# === Generated files ===
+*.apk
+*.ap_
+*.aab
+*.dex
+*.class
+*.jar
+*.war
+*.ear
+
+# === Gradle wrapper ===
+gradle-app.setting
+!gradle-wrapper.jar
+
+# === IntelliJ IDEA ===
+*.ipr
+*.iws
+
+# === Kotlin/Java ===
+*.kt~
+*.java~
+
+# === NDK / CMake build outputs ===
+obj/
+.externalNativeBuild/
+.cxx/
+
+# === Misc ===
+/gen/
